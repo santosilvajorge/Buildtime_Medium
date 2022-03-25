@@ -1,12 +1,13 @@
 * {
-    margin: 5px 10pxpx;
+    margin: 5px 15px;
+    max-width: 100%;
 }
 
 header {
     display: flex;
     align-items: center;
     align-content: space-between;
-    gap: 60%;
+    column-gap: 60%;
     width: 100%;
     
     
@@ -19,9 +20,9 @@ header {
 
 .nav-data {
     display: flex;
-    gap: 15px;
-    height: 10px;
-    justify-items: flex-end;
+    height: 30px;
+    justify-items: center;
+    white-space: pre;
 
 }
 
@@ -29,4 +30,7 @@ header {
     border-radius: 50%;
     background-color: rgb(202, 61, 61);
     color: white;
+    width: 30px;
+    text-align: center;
+    
 }   
