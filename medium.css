@@ -1,0 +1,32 @@
+* {
+    margin: 5px 10pxpx;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 60%;
+    width: 100%;
+    
+    
+}
+
+.nav-logo {
+    display: flex;
+    width: 180px;
+}
+
+.nav-data {
+    display: flex;
+    gap: 15px;
+    height: 10px;
+    justify-items: flex-end;
+
+}
+
+.profile-icon {
+    border-radius: 50%;
+    background-color: rgb(202, 61, 61);
+    color: white;
+}   
