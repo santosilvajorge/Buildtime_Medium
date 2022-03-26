@@ -1,5 +1,5 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -57,7 +57,7 @@ main {
     opacity: 90%;
     background: linear-gradient(180deg, rgb(243, 243, 243) 0%, transparent 100% );
     z-index: 3;
-    width: 100%;
+    
 
 }
 
@@ -74,8 +74,8 @@ main {
     display: flex;
     flex-direction: column;
     z-index: 3;
-    background-color: aqua;
     width: 40%;
+    margin: 0px 115px 0px 50px;
 }
 
 .nav-main {
@@ -145,6 +145,9 @@ main {
 
 #main-icons {
     display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding-right: 30px;
 }
 
 .main-content-img {
@@ -154,4 +157,108 @@ main {
 .content-image {
     width: 180px;
     height: 120px;
+}
+
+.main-right-twiter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.74);
+    padding-bottom: 25px;
+
+}
+
+.main-right-twiter-icons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-top: 35px;
+
+}   
+
+#logo-medium-icon {
+    width: 30px;
+
+}
+
+#plus {
+    font-size: xx-large;
+    font-weight: lighter;
+    color: rgb(68, 68, 68);
+}
+
+#logo-twiter-icon {
+    width: 40px;
+}
+
+.main-right-twiter-text {
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.main-right-twiter-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%/70%;
+    padding: 0px 40px 0px 10px;
+    margin-top: 10px;
+}
+
+.main-right-twiter-link {
+    margin: 15px 0px;
+    
+}
+
+a:visited,
+a:hover,
+a:active,
+a:link {
+    text-decoration: none;
+    color:rgba(128, 128, 128, 0.74);
+    text-decoration-line: underline;
+    
+}
+
+.main-right-recommendedTopics {
+    padding: 100px 0x;
+}
+
+.main-right-recommendedTopics-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boxes {
+    display: flex;
+    gap: 20px;
+    background-color: rgba(224, 222, 222, 0.719);
+    padding: 4px 28px;
+    margin: 5px 10px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10%/60%;
+    object-fit: contain;
+
+}
+
+.main-right-whoToFollow {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.main-right-whoToFollow-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Steve-Jobs-icon {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
